@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+      <LinearLayout
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="190dp"
+          android:background="#FFA185"
+          android:orientation="vertical"
+          android:id="@+id/createId"
+          android:gravity="center_horizontal"
+          android:foreground="?attr/selectableItemBackground"
+
+          >
+
+          <ImageView
+              android:layout_width="130dp"
+              android:layout_height="130dp"
+              android:src="@drawable/create"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="3dp"
+              />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Create"
+              android:textSize="16sp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              />
+
+
+      </LinearLayout>
+
+        <LinearLayout
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="190dp"
+            android:background="#53DFC2"
+            android:orientation="vertical"
+            android:id="@+id/creationId"
+            android:gravity="center_horizontal"
+            android:foreground="?attr/selectableItemBackground"
+
+            >
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/creation"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creations"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        >
+      <LinearLayout
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="190dp"
+          android:background="#FF679A"
+          android:orientation="vertical"
+          android:id="@+id/rateId"
+          android:gravity="center_horizontal"
+          android:foreground="?attr/selectableItemBackground"
+
+          >
+
+          <ImageView
+              android:layout_width="130dp"
+              android:layout_height="130dp"
+              android:src="@drawable/rate"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="3dp"
+              />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Rate Us"
+              android:textSize="16sp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              />
+
+
+
+      </LinearLayout>
+
+        <LinearLayout
+          android:layout_weight="1"
+          android:layout_width="0dp"
+          android:layout_height="190dp"
+            android:background="#FCD683"
+            android:orientation="vertical"
+            android:id="@+id/shareId"
+            android:gravity="center_horizontal"
+            android:foreground="?attr/selectableItemBackground"
+
+            >
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/share"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

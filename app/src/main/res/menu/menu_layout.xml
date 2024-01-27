@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/imageItemId"
+        android:icon="@drawable/image_icon"
+
+        android:title="IMAGE"/>
+    <item
+        android:id="@+id/frameItemId"
+        android:icon="@drawable/frame_icon"
+        android:title="FRAMES"/>
+    <item
+        android:id="@+id/addTextItemId"
+        android:icon="@drawable/add_text_iconn"
+        android:title="ADD TEXT"/>
+    <item
+        android:id="@+id/stickerItemId"
+        android:icon="@drawable/baseline_sentiment_very_satisfied_24"
+        android:title="STICKERS"/>
+    <item
+        android:id="@+id/saveItemId"
+        android:icon="@drawable/save_icon"
+
+        android:title="SAVE"/>
+
+</menu>
